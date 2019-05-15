@@ -15,10 +15,10 @@ def sort_array_char_count(string)
 end
   
 # ["blake", "ashley", "scott"] == ["blake", "scott", "ashley"]  
+# a == "ashley", b == "scott"
 def swap_elements(array)
-  array.sort do |a, b|
-    
-  end
+  array[1], array[2] = array[2], array[1]
+  array
 end
 
 def reverse_array(array)
